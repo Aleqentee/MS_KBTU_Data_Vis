@@ -49,8 +49,9 @@ async function buildPlot() {
 
     bounded.append("path")
         .attr("d",lineGenerator(data))
+        .attr("transform", "translate(50, 10)")
         .attr("fill","none")
-        .attr("stroke","lightgrey")
+        .attr("stroke","purple")
 
     bounded.append("g")
         .attr("transform", `translate(50,${dimension.boundedHeight + 10})`)
