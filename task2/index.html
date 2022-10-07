@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>My first Timeline</title>
+  </head>
+  <body>
+    <div style="float: left;" id="wrapper"></div>
+    <script src="./d3.v6.js"></script>
+    <script src="./bar.js"></script>
+    <button id="b1" style="background-color:green; width:200px; display: block" type="button"
+      onclick="pushed(this.id, 'temperatureLow')">Temp Low</button>
+    <button id="b2" style="background-color:beige; width:200px; display: block" type="button"
+            onclick="pushed(this.id, 'temperatureHigh')">Temp High</button>
+    <button id="b3" style="background-color:beige; width:200px; display: block" type="button"
+            onclick="pushed(this.id, 'temperatureMin')">Temp Min</button>
+    <button id="b4" style="background-color:beige; width:200px; display: block" type="button"
+            onclick="pushed(this.id, 'temperatureMax')">Temp Max</button>
+
+  </body>
+</html>
