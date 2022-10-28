@@ -57,6 +57,7 @@ async function buildPlot() {
         .attr("transform", `translate(50,${dimension.boundedHeight + 10})`)
         .call(x_axis);
 
+
     bounded.append("g")
         .attr("transform", "translate(50, 10)")
         .call(y_axis);
