@@ -1,0 +1,52 @@
+ /* Style for page */
+ body {
+     background-color: grey;
+ }
+
+ .topdiv {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .listing {
+     float: left;
+ }
+.topdiv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .listing1 {
+     margin: 20px;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ p {
+     text-align: center;
+ }
+
+ h1 {
+     font-size: 4em;
+ }
+ h4{
+    margin: 0;
+ }
+
+ text {
+     font-family: sans-serif;
+ }
+
+ #allButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+ }
+
+ .line {
+     fill: none;
+     stroke-width: 1;
+ }
